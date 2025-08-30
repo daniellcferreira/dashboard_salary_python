@@ -1,0 +1,32 @@
+# Ignorar o ambiente virtual
+venv/
+__pycache__/
+
+# Ignorar arquivos de configuração do VSCode
+.vscode/
+
+# Ignorar arquivos de cache do Python
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar o arquivo de banco de dados SQLite (caso tenha)
+*.sqlite3
+
+# Ignorar arquivos de pacotes compilados
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store  # macOS
+Thumbs.db  # Windows
